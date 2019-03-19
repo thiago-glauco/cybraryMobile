@@ -1,0 +1,14 @@
+<Page loaded="pageLoaded" class="page" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar title="Hello Cybrary" class="action-bar">
+    </ActionBar>
+    <ScrollView>
+        <StackLayout>
+            <Label text="Learn NativeScript at Cybrary!" class="header bg-primary" />
+            <TextField hint="Tell us your name." text="{{name}}" />
+            <TextField hint="Tell us a quote you like." text="{{quote}}" />
+            <ListPicker items="{{ genders }}" selectedIndex="{{ selected }}" />
+            <Button text="Lets see..." tap="onTap" />
+        </StackLayout>
+    </ScrollView>
+</Page>

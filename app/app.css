@@ -1,0 +1,22 @@
+.btn {
+    font-size: 15;
+}
+
+@import '~nativescript-theme-core/css/core.light.css';
+
+.home-panel{
+    vertical-align: center;
+    font-size: 15;
+    margin: 10;
+}
+
+.header{
+    vertical-align: center;
+    text-align: center;
+    font-size: 15;
+    padding: 10;
+}
+
+.description-label{
+    margin-bottom: 10;
+}
